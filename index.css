@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Neucha';
     src: url("Neucha.woff") format('woff');
-    src: url("Neucha.otf");
     src: url("Neucha.svg") format('svg');
     src: url("Neucha.ttf")format('truetype');
 }
