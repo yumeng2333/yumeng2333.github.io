@@ -32,9 +32,9 @@
 <!-- 高考/技能高考倒计时-->
 <ul class="border-2">
     <li class="text-1">距离2020年高考：</li>
-    <li id="span_dt_dt" class="text-1" ></li>
+    <li id="time1" class="text-1" ></li>
     <li class="text-1">距离2020年技能高考：</li>
-    <li id="span_dt_dt1" class="text-1"></li>
+    <li id="time2" class="text-1"></li>
 </ul>
 <!-- 本站运行时间： -->
 <nav class="border-2" style="padding: 0px 0px 0px 20px;margin: 20px 20px 10px 20px"><p  id="runtime_span" class="text-1"></p></nav>
@@ -42,7 +42,7 @@
 <!--本站运行时间js代码：-->
 <script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("11/16/2019 12:00:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
 <!--文化高考倒计时js代码:-->
-<SCRIPT language=javascript>function show_time(){window.setTimeout("show_time()",1000);BirthDay=new Date("06-06-2020");today=new Date();timeold=(BirthDay.getTime()-today.getTime());sectimeold=timeold/1000;secondsold=Math.floor(sectimeold);msPerDay=24*60*60*1000;e_daysold=timeold/msPerDay;daysold=Math.floor(e_daysold);e_hrsold=(e_daysold-daysold)*24;hrsold=Math.floor(e_hrsold);e_minsold=(e_hrsold-hrsold)*60;minsold=Math.floor((e_hrsold-hrsold)*60);seconds=Math.floor((e_minsold-minsold)*60);span_dt_dt.innerHTML=daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"}show_time();</SCRIPT>
+<SCRIPT language=javascript>function show_time(){window.setTimeout("show_time()",1000);BirthDay=new Date("04-14-2020");today=new Date();timeold=(BirthDay.getTime()-today.getTime());sectimeold=timeold/1000;secondsold=Math.floor(sectimeold);msPerDay=24*60*60*1000;e_daysold=timeold/msPerDay;daysold=Math.floor(e_daysold);e_hrsold=(e_daysold-daysold)*24;hrsold=Math.floor(e_hrsold);e_minsold=(e_hrsold-hrsold)*60;minsold=Math.floor((e_hrsold-hrsold)*60);seconds=Math.floor((e_minsold-minsold)*60);time1.innerHTML=daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"}show_time();</SCRIPT>
 <!--技能高考倒计时js代码:-->
-<SCRIPT language=javascript>function show_time(){window.setTimeout("show_time()",1000);BirthDay=new Date("04-14-2020");today=new Date();timeold=(BirthDay.getTime()-today.getTime());sectimeold=timeold/1000;secondsold=Math.floor(sectimeold);msPerDay=24*60*60*1000;e_daysold=timeold/msPerDay;daysold=Math.floor(e_daysold);e_hrsold=(e_daysold-daysold)*24;hrsold=Math.floor(e_hrsold);e_minsold=(e_hrsold-hrsold)*60;minsold=Math.floor((e_hrsold-hrsold)*60);seconds=Math.floor((e_minsold-minsold)*60);span_dt_dt1.innerHTML=daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"}show_time();</SCRIPT>
+<SCRIPT language=javascript>function show_time(){window.setTimeout("show_time()",1000);BirthDay=new Date("04-14-2020");today=new Date();timeold=(BirthDay.getTime()-today.getTime());sectimeold=timeold/1000;secondsold=Math.floor(sectimeold);msPerDay=24*60*60*1000;e_daysold=timeold/msPerDay;daysold=Math.floor(e_daysold);e_hrsold=(e_daysold-daysold)*24;hrsold=Math.floor(e_hrsold);e_minsold=(e_hrsold-hrsold)*60;minsold=Math.floor((e_hrsold-hrsold)*60);seconds=Math.floor((e_minsold-minsold)*60);time2.innerHTML=daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"}show_time();</SCRIPT>
 </html>
