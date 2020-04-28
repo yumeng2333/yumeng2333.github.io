@@ -1,0 +1,8 @@
+@font-face {  font-family: 'Neucha';  src: url("Neucha.woff") format('woff');  src: url("Neucha.svg") format('svg');  src: url("Neucha.ttf")format('truetype');  }
+a,a:link,a:visited,a:focus{font-family: Neucha,微软雅黑,Arial,华文细黑;font-size:30px;text-decoration:none;color:#000;}
+.left-to-right{margin-left: 20px;position:relative;}
+.left-to-right::after{content:'';display:block;width:0;height:2px;position:absolute;left:0;bottom:0px;border-bottom-left-radius: 15px 225px;background:#000;transition:all 0.3s ease-in-out;}
+.left-to-right:hover::after{width:100%;}
+.border-1{background: #FFFFFF;padding: 5px 5px 5px 5px;border:2px solid black;border-bottom-right-radius: 15px 255px;border-bottom-left-radius: 225px 15px;border-top-left-radius: 15px 255px;border-top-right-radius: 700px 50px;margin-bottom: 20px;}
+.border-2{margin: 20px 20px 20px 20px;background: #FFFFFF;padding:5px 5px 5px 5px;border: 2px solid rgb(150,150,150);box-shadow: 0 0 3px rgb(150,150,150);}
+.text-1{font-family: Neucha,微软雅黑,Arial,华文细黑;font-size: 25px;}
